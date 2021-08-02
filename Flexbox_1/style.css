@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    ;
+  }
+  
+  a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+  }
+
+  ul{
+      list-style-type: none;
+  }
+
+  .tap-menu{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      padding-left: 0px;
+      width: 540px;
+      height: 54px;
+  }
+
+  .tap-menu-items a{
+      display: block;
+      margin: 16px 20px;
+  }  
+
+
+  .tap-menu-items.select{
+      border-bottom: 2px solid  #2860E1 ;
+  }
+
+
+  .tap-menu-items.select a{
+      color: #2860E1;
+  }
