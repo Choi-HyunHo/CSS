@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Muli", sans-serif;
+    color: #273444;
+    background-color: black;
+   
+  }
+  
+  .profile-name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3333333333;
+  }
+  
+  .profile-location {
+    font-size: 14px;
+    line-height: 1.4285714286;
+    color: #8492a6;
+  }
+  
+  .profile-detail dt {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.6666666667;
+    color: #8492a6;
+  }
+  
+  .profile-detail dd {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1.25;
+    color: #0066ff;
+  }
+
+  .profile{
+    width: 386px;
+    height: 304px;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .profile-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.profile-name {
+    margin-bottom: 4px;
+}
+
+.profile-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 32px;
+    text-align: center;
+    /* profile-detail의 width 값이 너무 작아 한 곳에 뭉치는 것을 방지 */
+    width: 100%;
+}
+
+ 
+
+  
+
+
+  
+
