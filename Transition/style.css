@@ -37,9 +37,10 @@ button{
     width: 0;
     height: 2px;
     background-color: #0066FF;
-    transition: width 250ms ease-in;
+    transition: width 250ms ease-in, background-color 250ms ease-in;
 }
 
 .line-button:hover::after{
     width: 100%;
+    background-color: hotpink;
 }
