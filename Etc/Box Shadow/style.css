@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 705px;
+    height: 265px;
+}
+
+.cancel-button{
+    margin-right: 16px;
+    width: 162px;
+    height: 56px;
+    border-radius: 100px;
+    background-color: #FF4949;
+    color: #fff;
+    border: none;
+    transition: box-shadow 250ms;
+}
+
+.cancel-button:hover{
+    box-shadow: 0 10px 16px rgb(255, 73, 73, 0.35);
+}
+
+.confirm-button{
+    width: 162px;
+    height: 56px;
+    border-radius: 100px;
+    background-color: #13CE66;
+    color: #fff;
+    border: none;
+    box-shadow: 0 10px 16px rgb(19, 206, 102, 0.35);
+}
+
